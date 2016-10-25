@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Opcion1"
+        android:title="Opción 1"
+        android:icon="@android:drawable/ic_btn_speak_now" />
+
+    <item
+        android:id="@+id/Opcion2"
+        android:title="Opción 2"
+        android:icon="@android:drawable/arrow_up_float"  >
+        <menu>
+            <item
+                android:id="@+id/Opcion21"
+                android:title="Opción 2.1" />
+            <item
+                android:id="@+id/Opcion22"
+                android:title="Opción 2.2" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Opcion3"
+        android:title="Opción 3"
+        android:icon="@android:drawable/btn_radio" />
+</menu>
